@@ -34,8 +34,6 @@ public:
     common(int x, int y) : block(x, y)
     {
 
-        // εκτύπωση σχετικού μηνύματος
-        cout << " A common just created " << endl;
     }
 
     void display_map(){
@@ -745,7 +743,5 @@ public:
     ~common()
     {
 
-        // εκτύπωση σχετικού μηνύματος
-        cout << " A common to be destroyd" << endl;
     }
 };

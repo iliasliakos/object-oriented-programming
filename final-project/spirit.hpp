@@ -26,9 +26,6 @@ public:
     ~spirit()
     {
         
-        cout << "A Spirit will be destructed with name : " << endl;
-        //printname();
-        cout << "			Afterlife is calling,get there now!!\n" << endl;
     }
 
     void print()

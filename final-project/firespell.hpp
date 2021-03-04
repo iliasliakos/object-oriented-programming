@@ -19,13 +19,12 @@ public:
 	firespell(const char *nam, const int c = 20, const int lvl = 0, const int mind = 10, const int maxd = 35, const int mgc = 15) : spell(nam, c, lvl, mind, maxd, mgc), decrease_of_enemy_defence(10)
 	{
 
-		cout << "Ragnarok  illuminated human.The " << getname() << "  spell is yours" << endl;
 	}
 
 	// destructor
 	~firespell()
 	{
-		cout << "Ragnarok obliviated man .Took back the knowledge of " << getname() << endl;
+
 	}
 	
 	

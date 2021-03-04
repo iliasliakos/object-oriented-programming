@@ -17,16 +17,13 @@ public:
 	dragon(const char *nam, const int mind, const int maxd, const int def, const int av) : monster(nam, mind, maxd, def, av)
 	{
 
-		cout << "\nA dragon has landed nearby!\n 			GHHHRHOAAOR!" << endl;
-		cout << "	... Applying dragon effect of bigger damage ..." << endl;
 	}
 
 	// destructor
 	~dragon()
 	{
 
-		cout << "A Dragon will be destructed with name : " << endl;
-		cout << "			Sweet dreams little chic!!\n" << endl;
+				
 	}
 
 	void level_up(const int c)

@@ -117,7 +117,7 @@ public:
         // εκτύπωση των items
         number_of_products = print_spells();
 
-        cout << "items size = " << number_of_products << endl;
+        
 
         string select2;
         int no;
@@ -180,7 +180,7 @@ public:
         // εκτύπωση των items
         number_of_products = print_items();
 
-        cout << "items size = " << number_of_products << endl;
+        
 
         string select2;
         int no;
@@ -410,9 +410,5 @@ public:
         }
 
         spells.clear();
-
-
-        // εκτύπωση σχετικού μηνύματος
-        cout << " A market to be destroyd " << endl;
     }
 };

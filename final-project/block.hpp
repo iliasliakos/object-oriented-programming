@@ -29,8 +29,6 @@ public:
     block(int i, int z) : x(i), y(z)
     {
 
-        // εκτύπωση σχετικού μηνύματος
-        cout << " block constructor " << endl;
     }
 
     virtual void interact_with(Party p) = 0;
@@ -52,8 +50,6 @@ public:
     // destructor
     virtual ~block(){
 
-        // εκτύπωση σχετικού μηνύματος
-        cout << " block to be destroyd " << endl;
     }
 };
 #endif

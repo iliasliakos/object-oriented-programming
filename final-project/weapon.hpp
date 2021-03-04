@@ -2,7 +2,6 @@
 #include <iostream>
 
 #include "item.hpp"
-//#include "party.hpp"
 #include "hero.hpp"
 
 
@@ -28,8 +27,6 @@ public:
     weapon(const char *nam, int p, int l, int d, int h) : item(nam, p , l), damage(d), number_of_hands(h)
     {
 
-        // εκτύπωση σχετικού μηνύματος
-        cout << "A New weapon has been created! " << endl;
     }
 
     // επιστρέφει τη ζημιά που προκαλεί
@@ -261,7 +258,5 @@ public:
     ~weapon()
     {
 
-        // εκτύπωση σχετικού μηνύματος
-        cout << "A weapon to be destroyed! ";
     }
 };

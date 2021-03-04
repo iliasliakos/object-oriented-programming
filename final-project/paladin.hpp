@@ -41,8 +41,6 @@ public:
     // destructor
     ~paladin(){
 
-        // εκτυπωσή σχετικού μηνύματος
-        cout << " A paladin to be destroyd " << endl;
     }
 };
 #endif

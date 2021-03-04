@@ -20,8 +20,6 @@ public:
     nonAccessible(int x, int y) : block(x, y)
     {
 
-        // εκτύπωση σχετικού μηνύματος
-        cout << " A nonAccessible just created " << endl;
     }
 
 
@@ -39,7 +37,6 @@ public:
     // destructor
     ~nonAccessible(){
 
-        // εκτύπωση σχετικού μηνύματος
-        cout << " A nonAccessible to be destroyd" << endl;
+       
     }
 };

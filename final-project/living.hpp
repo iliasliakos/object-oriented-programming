@@ -26,8 +26,6 @@ public:
     living(const char *nam) : level(0), health(100)
     {
 
-        cout << " living constructor " << endl;
-
         // δέσμευση χώρου για το name
         name = new char[strlen(nam) + 1];
 
@@ -91,8 +89,6 @@ public:
 
     // destructor
     virtual ~living(){
-
-        cout << "living destructor" << endl;
 
         // αποδέσμευση χώρου του name
         delete[] name;

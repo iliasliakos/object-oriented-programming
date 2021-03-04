@@ -26,15 +26,12 @@ public:
 	monster(const char *nam, const int mind, const int maxd, const int def, const int av) : living(nam), mindam(mind), maxdam(maxd), defence(def), avoid(av)
 	{
 
-		cout << " A Monster has been created with name " << get_name() << endl;
 	}
 
 	// destructor
 	~monster()
 	{
 
-		cout << " A Monster will be destructed with name : " << endl;
-		//printname();
 	}
 
 	// αυξάνει το maxdam κατά c

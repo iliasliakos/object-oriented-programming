@@ -188,7 +188,6 @@ public:
             game_map.insert(pair<Coordinates, block *>(c, new common(c->x, c->y)));
         }
 
-        cout << game_map.size() << endl;
 
         // δημιουργία του party
         // όταν αρχίζει το παιχνίδι το party
@@ -198,8 +197,6 @@ public:
         party_of_heroes->coordinates_of_party->x = 6;
         party_of_heroes->coordinates_of_party->y = 7;
 
-        // εκτύπωση σχετικού μηνύματος
-        cout << " a grid just created " << endl;
     }
 
     void see_map()
@@ -333,7 +330,6 @@ public:
                 }
             }
 
-            cout << input << endl;
 
             // αν επέλεξε κάποιο ήρωα
             if (y != 0)
@@ -356,7 +352,6 @@ public:
                     char *hero_name = &info.at(y - 1)->name[0];
                     party_of_heroes->heroes.push_back(new sorcerer(hero_name, info.at(y - 1)->magic_power, info.at(y - 1)->strength, info.at(y - 1)->dexterity, info.at(y - 1)->agility));
                 }
-                cout << info.at(y - 1)->type << info.at(y - 1)->name << endl;
             }
         }
 
@@ -410,6 +405,7 @@ public:
             if (ch == 'q')
             {
 
+		cout << " Thank you for playing the game!!" << endl;
                 break;
             }
             // αν επέλεξε να δει το χάρτι
@@ -709,9 +705,6 @@ public:
 
         // αποδέσμευση μνήμης
         delete party_of_heroes;
-
-        // εκτύπωση σχετικού μηνύματος
-        cout << " a grid to be destroyd " << endl;
     }
 };
 

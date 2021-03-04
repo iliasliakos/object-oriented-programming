@@ -32,8 +32,6 @@ public:
     potion(const char *nam, int p, int l, int b, int s) : item(nam, p, l) , boost(b), statistic(s)
     {
 
-        // εκτύπωση σχετικού μηνύματος
-        cout << "A New potion has been created! ";
     }
 
     // επιστρέφει το ποσό που αυξάνεται το στατιστικό του ήρωα
@@ -114,7 +112,5 @@ public:
     // destructor
     ~potion(){
 
-        // εκτύπωση σχετικού μηνύματος
-        cout << "A potion to be destroyed! ";
-    }
+     }
 };

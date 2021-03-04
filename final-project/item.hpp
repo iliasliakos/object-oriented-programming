@@ -32,8 +32,6 @@ public:
     item(const char *nam, int p, int l) : price(p), level(l)
     {
 
-        cout << " item constructor " << endl;
-
         // δέσμευση χώρου για το name
         name = new char[strlen(nam) + 1];
 
@@ -70,8 +68,6 @@ public:
 
     //destructor
     virtual ~item(){
-
-        cout << "item destructor" << endl;
 
         // αποδέσμευση χώρου του name
         delete[] name;

@@ -41,8 +41,6 @@ public:
     // destructor
     ~sorcerer(){
 
-        // εκτυπωσή σχετικού μηνύματος
-        cout << " A sorcerer to be destroyd " << endl;
-    }
+     }
 };
 #endif

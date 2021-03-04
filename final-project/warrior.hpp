@@ -44,9 +44,7 @@ public:
     // destructor
     ~warrior(){
 
-        // εκτυπωσή σχετικού μηνύματος
-        cout << " A warrior to be destroyd " << endl;
-    }
+     }
 };
 
 #endif

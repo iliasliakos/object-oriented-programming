@@ -25,8 +25,6 @@ public:
     armor(const char *nam, int p, int l, int d) : item(nam, p, l) , damages_decrease(d)
     {
 
-        // εκτύπωση σχετικού μηνύματος
-        cout << "A New armor has been created! ";
     }
 
     // επιστρέφει το ποσό που μειώνει τη ζημιά που δέχεται ο ήρωας
@@ -81,7 +79,5 @@ public:
     // destructor
     ~armor(){
 
-        // εκτύπωση σχετικού μηνύματος
-        cout << "A armor to be destroyed! ";
-    }
+     }
 };

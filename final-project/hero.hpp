@@ -66,9 +66,6 @@ public:
         // αρχικοποιείται με 2 ελεύθερα χέρια
         equipped_items_of_hero->free_hands = 2;
         
-        // εκτύπωση σχετικού μηνύματος
-        cout << " A new hero created " << endl;
-        cout << " with name " << get_name() << endl;
     }
 
     // επιστρέφει την ποσότητα μαγικής ενέργειας του ήρωα
@@ -208,7 +205,7 @@ public:
     void sell_items(){
 
         cout << " Select the item that you want to sell " << endl;
-        cout << "To select press the right number or press 0 if you dont want to buy " << endl;
+        cout << "To select press the right number or press 0 if you dont want to sell " << endl;
 
         int number_of_products;
 
@@ -262,7 +259,7 @@ public:
     void sell_spells(){
 
         cout << " Select the spell that you want to sell " << endl;
-        cout << "To select press the right number or press 0 if you dont want to buy " << endl;
+        cout << "To select press the right number or press 0 if you dont want to sell " << endl;
 
         int number_of_products;
 
@@ -625,7 +622,6 @@ public:
         // αποδέσμευση χώρου για τα equipped items του hero
         delete equipped_items_of_hero;
 
-        cout << " A hero with name " << get_name() << " to be destroyed " << endl;
-    }
+   }
 };
 #endif

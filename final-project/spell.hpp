@@ -39,8 +39,6 @@ public:
         // αποδέσμευση χώρου για το name
         delete[] name;
 
-        // εκτύπωση σχετικού μηνύματος
-        cout << " a spell to be destroyd " << endl;
     }
 
     // επιστρέφει το cost
