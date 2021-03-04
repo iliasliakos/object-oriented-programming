@@ -1,0 +1,15 @@
+w Abbathor 100 16 10 13
+w Aerdrie_Faenya 100 16 10 13
+w Arvoreen 100 16 10 13
+w Baervan_Wildwanderer 100 16 10 13
+w Baravar_Cloakshadow 100 16 10 13
+p Berronar_Truesilver 100 16 13 10
+p Brandobaris 100 16 13 10
+p Callarduran_Smoothhands 100 16 13 10
+p Charmalaine 100 16 13 10
+p Clangeddin_Silverbeard 100 16 13 10
+s Corellon_Larethian 100 10 16 13
+s Cyrrollalee 100 10 16 13
+s Deep_Sashelas 100 10 16 13
+s Dugmaren_Brightmantle 100 10 16 13
+s Dumathoin 100 10 16 13

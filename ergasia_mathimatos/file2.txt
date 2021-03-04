@@ -1,0 +1,15 @@
+d Roldracrig 100 8 15 4	15
+d Kivit 100 8 15 4	15
+d Ororran 100 8 15 4	15
+d Dyrgem 100 8 15 4	15 	
+d Oindrin	100 8 15 4	15	
+e Boney	100 5 10 9 15
+e Moribs 100 5 10 9 15
+e Hannibone 100 5 10 9 15
+e Crusht 100 5 10 9 15
+e Lilbone 100 5 10 9 15
+g Haunakis	100 5 10 4 25
+g Azur	100 5 10 4 25
+g Almah 100 5 10 4 25
+g Zorichoc 100 5 10 4 25
+g Vladimir 100 5 10 4 25
